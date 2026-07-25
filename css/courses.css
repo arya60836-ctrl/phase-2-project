@@ -1,0 +1,73 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(252, 249, 249);
+    color: black;
+}
+header{
+     background-color: rgb(154, 157, 161);
+     color: black;
+     padding: 16px 24px;
+     border-radius: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+nav a{
+    color: white;
+    background-color: rgb(87, 81, 72);
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+nav a:hover{
+    background-color: rgba(198, 199, 200);
+    color: black;
+    transition: background 0.3s ease, transform 0.2s ease;
+     transform: translateY(-2px);
+}
+h1{
+    text-align: center;
+}
+#courses {
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+#courses li{
+     min-height: 150px;
+     min-width: 10px;
+     gap: 40px;
+     background-color: white;
+     list-style: none;
+     padding: 10px;
+     border-radius: 20px;
+     font-size: 20px;
+     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#courses li :hover {
+    background-color: rgb(25, 26, 26);
+    color: aliceblue;
+}
+#courses li:hover{
+    background: linear-gradient(to top,black, rgba(76, 102, 114, 0.5), rgb(252, 250, 250), gray)  
+}
+footer{
+    text-align: center;
+    margin-top: 200px;
+    color: grey;
+    font-size: 20px;
+}

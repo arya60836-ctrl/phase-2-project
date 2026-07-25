@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<style>
+    .img img {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    .main {
+        max-width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding: 30px; */
+        /* background-color: blue; */
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        justify-self: center;
+        align-self: center;
+        /* overflow: hidden; */
+    }
+
+    .info {
+        background-color: rgb(90, 90, 172);
+        width: full;
+        padding: 10px;
+        color: white;
+        height: 200px;
+    }
+
+    .skill {
+        background-color: blueviolet;
+        color: white;
+        /* padding: 10px; */
+        width: 100%;
+        /* height:100px */
+        ;
+    }
+    .skillsitems{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+/* justify-content: center;
+align-items: center; */
+    }
+    .topskill{
+        display: flex;
+        width: 100%;
+        height: 20px;
+justify-content: space-around;
+    }
+</style>
+
+<body>
+
+    <div class="main">
+        <div class="img">
+            <img src="../anurag.JPG" alt="">
+        </div>
+        <hr>
+        <div class="info">
+
+            <h1>Anurag ARYA</h1>
+            <p>📍HIMACHAL PRADESH</p>
+            <P>UL/UX designer and front-end developer</P>
+            <div>
+                <button>Message</button>
+                <button>Follow</button>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>SKILLS</h3>
+            <div class="skillsitems">
+                 <div class="topskill">
+                    <h6>ui ux</h6>
+                    <h6> fronted </h6>
+                    <h6>html</h6>
+                </div>
+           
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

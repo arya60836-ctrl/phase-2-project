@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: white;
+    height: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    background-color: grey;
+    height: 110px;
+}
+.block1{
+    text-align: left;
+}
+

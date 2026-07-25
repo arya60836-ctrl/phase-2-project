@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Student Grades — Report</title>
+		<link rel="stylesheet" href="../css/grade.css">
+		
+	</head>
+	<body>
+		<header>
+			<h1>Grade Report</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="profile.html">Profile</a></li>
+					<li><a href="courses.html">Courses</a></li>
+					<li><a href="FEEDBACK.HTML">Feedback</a></li>
+					<li><a href="grade.html">Grades</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			<hr>
+		</header>
+
+		<main>
+			<section id="student-info">
+				<h2>Student Information</h2>
+				<p>
+					Name: <strong>Anurag Arya</strong><br>
+					Roll No: <strong>12345</strong><br>
+					Class: <strong>1st Year - Web Development</strong>
+				</p>
+			</section>
+
+			<section id="grades">
+				<h2>Grades</h2>
+				<p>This table shows subjects with credits, earned grade, and grade points.</p>
+
+				<table border="10" cellpadding="6" cellspacing="6">
+					<caption>Semester 1 — Sample Grades</caption>
+					<thead class="inner">
+						<tr>
+							<th>Subject</th>
+							<th>Credits</th>
+							<th>Grade</th>
+							<th>Grade Point</th>
+							<th>Total Points</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Mathematics</td>
+							<td align="center">4</td>
+							<td align="center">A</td>
+							<td align="center">4.0</td>
+							<td align="center">16.0</td>
+						</tr>
+						<tr>
+							<td>English</td>
+							<td align="center">3</td>
+							<td align="center">B</td>
+							<td align="center">3.0</td>
+							<td align="center">9.0</td>
+						</tr>
+						<tr>
+							<td>Science</td>
+							<td align="center">4</td>
+							<td align="center">A</td>
+							<td align="center">4.0</td>
+							<td align="center">16.0</td>
+						</tr>
+						<tr>
+							<td>History</td>
+							<td align="center">2</td>
+							<td align="center">B</td>
+							<td align="center">3.0</td>
+							<td align="center">6.0</td>
+						</tr>
+						<tr>
+							<td>Computer</td>
+							<td align="center">3</td>
+							<td align="center">A</td>
+							<td align="center">4.0</td>
+							<td align="center">12.0</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th>Total</th>
+							<th align="center">16</th>
+							<th></th>
+							<th></th>
+							<th align="center">59.0</th>
+						</tr>
+						<tr>
+							<td colspan="4" align="right"><strong>GPA (sample)</strong></td>
+							<td align="center"><strong>3.69</strong></td>
+						</tr>
+					</tfoot>
+				</table>
+
+				<p><em>How GPA is calculated:</em> Add each subject's (credits × grade point), then divide by total credits. Example above: 59.0 total points ÷ 16 credits = 3.6875 → 3.69 (rounded).</p>
+			</section>
+
+			<section id="grading-scale">
+				<h2>Grade Scale</h2>
+				<ul>
+					<li>A = 4.0</li>
+					<li>B = 3.0</li>
+					<li>C = 2.0</li>
+					<li>D = 1.0</li>
+					<li>F = 0.0</li>
+				</ul>
+			</section>
+
+			<section id="notes">
+				<h2>Teacher's Notes</h2>
+				<p>Use this page as a printable grade report for demonstrations. If you want calculation automated, I can add a small JavaScript calculator to compute GPA from inputs.</p>
+			</section>
+		</main>
+
+		<footer>
+			<hr>
+			<p>&copy; 2025 Student Grade Report — School Project</p>
+		</footer>
+	</body>
+</html>

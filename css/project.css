@@ -1,0 +1,127 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+.top-header {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.top-header h1 {
+  font-size: 32px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin: 6px 0;
+}
+
+.contact-line {
+  font-size: 14px;
+}
+
+.contact-line a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+/* ===== MAIN LAYOUT ===== */
+.resume {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Left & Right columns */
+.profile {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+}
+
+/* ===== BLOCK STYLE ===== */
+.block,
+.block1,
+.education {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+  font-size: 20px;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+/* ===== PARAGRAPH ===== */
+p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* ===== HR ===== */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 12px 0;
+}
+
+/* ===== SKILLS TAG LIST ===== */
+.tag-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag-list li {
+  background-color: #e5e7eb;
+  padding: 6px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+/* ===== NORMAL LIST ===== */
+ul {
+  margin-left: 18px;
+}
+
+ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* ===== RESPONSIVE (MOBILE) ===== */
+@media (max-width: 768px) {
+  .resume {
+    flex-direction: column;
+  }
+}
